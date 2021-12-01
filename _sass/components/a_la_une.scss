@@ -1,0 +1,27 @@
+.a-la-une{
+    background-color: #DEDEDE;
+    .une_title{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        h2{
+            font-size: 31px !important;
+            font-weight: bold;
+            color: black;
+        }
+    }
+    .une_grid_size{
+        .img {
+            width: 100%;
+        }
+        
+    }
+}
+
+.button{
+    padding: 20px;
+    background-color: #ab0000;
+    color: white;
+    text-decoration: none;
+}
