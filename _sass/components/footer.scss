@@ -9,18 +9,23 @@ iframe{
     .footerinside{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "a a";    
+        grid-template-areas: "a b";  
+        h4{
+            margin: 30px 0;
+            font-weight: bold;
+        }  
         .left_infos{
+            grid-area: a;
             display: flex;
             flex-direction: column;
             .inline{
                 display: flex;
                 align-items: center;
-                padding-left: 0px;
+                margin: 30px 0px;
                 .logo_insta{width: 40px;}
                 .logo_facebook{width: 32px;margin-right: 25px;}
-                .icon_phone{width: 25px;margin-right: 25px;}
-                .icon_mail{width: 30px;margin-right: 25px;}
+                .icon_phone, .icon_mail{width: 30px;margin-right: 25px;}
+ 
                 
             }
             /*faut le faire en formulaire*/
@@ -39,11 +44,42 @@ iframe{
                 text-decoration: none;
             }
             /*---------------------------*/
+            .footer_link{
+                color: white;
+                margin: 10px 0;
+                font-size: 25px;
+            }
 
+        }
+        .right_infos{
+            grid-area: b;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            .logo_partenaires{
+                display: flex;
+                width: 25vw;
+                margin-left: -30px;
+                
+                justify-content: space-between;
+                img{
+                    width: 30%;
+                    margin: 0 25px;
+                }
+            }
+            
         }
     }
 
  
 }
 
+.right_infos :first-child{
+    width: 142px;
+    margin: 30px 0;
+}
+.regular{
+    font-weight: normal !important;
+    
+}
 
