@@ -1,19 +1,23 @@
 .button-noir{
-    padding: 20px;
+    padding: 13px;
     background-color: #ab0000;
     color: white;
     text-decoration: none;
     border: 2px solid #ab0000;
     transition: 0.2s;
+    display: flex;
+    width: fit-content;
 }
 
 .button-blanc{
-    padding: 20px;
+    padding: 13px;
     background-color: #fff;
     color: #ab0000;
     text-decoration: none;
     border: 2px solid #ab0000;
     transition: 0.2s;
+    display: flex;
+    width: fit-content;
 }
 
 .button-noir:hover{
