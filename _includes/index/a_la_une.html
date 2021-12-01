@@ -1,12 +1,14 @@
-<section class="a-la-une">
-    <div class="une_grid_size">
+<section class="a-la-une container">
+
+    <div class="une_title ">
         <h2>SPECTACLES A LA UNE</h2>
-        {% include button.html %}
-        <div class="une_affiches">
-            {% include index/image.html %}
-            {% include index/image.html %}
-            {% include index/image.html %}
-        </div>
+        {% include button.html button_text="Voir toute la programmation" %}
+    </div>
+
+    <div class="une_grid_size row">
+        {% include index/image.html col_pc="4" col_mobile="12" %}
+        {% include index/image.html %}
+        {% include index/image.html %}
     </div>
 
 </section>
