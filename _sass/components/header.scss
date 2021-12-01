@@ -1,0 +1,39 @@
+header {
+    background-color: #222222;
+    position: sticky;
+    top:0;
+    left:0;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding: 10px;
+    z-index: 4;
+}
+
+.selection a{
+    color:white;
+    text-decoration: none;
+    transition:0.2s;
+    font-size: 19px;
+}
+
+.selection a:hover{
+    transition:0.2s;
+    color:rgb(196, 196, 196);
+    text-shadow: 2px 2px 1px black;
+}
+
+.selection{
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+header img{
+    width: 160px;
+}
+
+header img:last-child{
+    opacity: 0;
+}
