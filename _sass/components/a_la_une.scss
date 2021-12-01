@@ -4,24 +4,39 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
+        margin-top: 108px;
+        margin-bottom: 57px;
         h2{
             font-size: 31px !important;
             font-weight: bold;
             color: black;
+
         }
     }
     .une_grid_size{
+        figure{
+            position: relative;
+            figurecaption{
+                position: absolute;
+                z-index: 3;
+                top:3%;
+                color:white;
+                left: 20px;
+                
+                h2{
+                    max-width: 95%;
+                }
+            }
+        }
         .img {
             width: 100%;
+        }
+        h2{
+            font-size: 50px;
+            
         }
         
     }
 }
 
-.button{
-    padding: 20px;
-    background-color: #ab0000;
-    color: white;
-    text-decoration: none;
-}
+
