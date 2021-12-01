@@ -2,13 +2,14 @@
 
     <div class="une_title ">
         <h2>SPECTACLES A LA UNE</h2>
-        {% include button.html button_text="Voir toute la programmation" %}
+        {% include button.html button_text="Voir toute la programmation" btn_type="noir" %} <!--pour la couleur lors du hover, mettre soit noir, soit blanc-->
     </div>
 
     <div class="une_grid_size row">
-        {% include index/image.html col_pc="4" col_mobile="12" %}
-        {% include index/image.html %}
-        {% include index/image.html %}
+        {% include index/image.html titre="L'appart" nom_image="ALaUneLAppart" %}
+        {% include index/image.html titre="Tuyaux" nom_image="ALaUneTuyaux" %}
+        {% include index/image.html titre="Chapeaux Bas" nom_image="ALaUneChapeauxBas" %}
     </div>
 
 </section>
+
