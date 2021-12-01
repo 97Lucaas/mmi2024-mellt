@@ -1,10 +1,17 @@
+.BG_a_la_une{
+    background-color: #DEDEDE;
+    padding-top: 108px;
+    
+}
 .a-la-une{
     background-color: #DEDEDE;
+    align-items: center;
+
     .une_title{
         display:flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 108px;
+        
         margin-bottom: 57px;
         h2{
             font-size: 31px !important;
@@ -21,11 +28,28 @@
                 z-index: 3;
                 top:3%;
                 color:white;
-                left: 20px;
+                left: 35px;
+                bottom: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 
-                h2{
+                
+
+                .HP_une{
+                    h2{
                     max-width: 95%;
                 }
+                p{
+                    margin-top: 31px;
+                    font-size: 25px;
+                    line-height: 30px;
+                    max-width: 95%;
+                }
+                
+                }
+                
+                
             }
         }
         .img {
