@@ -1,0 +1,28 @@
+.int-txt{
+    height: 100%;
+    align-items: center;
+}
+
+.h100{
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+
+.bloc-intro{
+    background-color: white;
+    background-image: url(/assets/images/danse-class.jpg);
+    background-image: url(/assets/images/danse-class.jpg), linear-gradient(
+        89.35deg, #222222 1.92%, rgba(0, 0, 0, 0) 144.8%);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color:white;
+}
+
+.bloc-intro h2{
+    font-size:40px;
+}
