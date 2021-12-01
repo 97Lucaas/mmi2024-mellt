@@ -1,10 +1,11 @@
 .button{
-    padding: 20px;
+    padding: 15px;
     background-color: #ab0000;
     color: white;
     text-decoration: none;
     border: 2px solid #ab0000;
     transition-duration: 0.2s;
+    width:fit-content;
 }
 .noir:hover{
     background-color: black;
@@ -16,5 +17,5 @@
 .blanc:hover{
     background-color: white;
     border-color: #ab0000;
-    color: #ab0000;
+    color: #ab0000;   
 }
