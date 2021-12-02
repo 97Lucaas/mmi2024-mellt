@@ -34,7 +34,8 @@ header {
 
 .selection{
     display: flex;
-    gap: 50px;
+    column-gap: 50px;
+    row-gap: 10px;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;

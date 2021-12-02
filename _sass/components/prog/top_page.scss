@@ -1,0 +1,120 @@
+
+.image_top:before {
+    content: " ";
+    background: linear-gradient(
+89.35deg, #222222 1.92%, rgba(0, 0, 0, 0) 144.8%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.image_top{
+    background-image: url("../../../assets/images/prog/evenement_1.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+.hero{
+    h1{
+    font-size: 76px ;
+    }
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 150px 0px;
+
+    
+
+    position: relative;
+    a{
+        padding: 10px 30px;
+        background-color: #333333;
+        color: white;
+        padding: 130px 0px; /*a check, valeur de base 130px*/
+
+        
+
+        position: relative;
+        a{
+            padding: 15px 30px;
+            background-color: #333333;
+            color: white;
+        
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+    }
+}
+
+#mois{
+    display: flex;
+    align-items: center;
+    a{
+        img{
+            width: 30px;
+            
+            transform: rotate(90deg);
+
+        }
+    }
+    & :last-child img{
+        transform: rotate(-90deg);
+    }
+}
+.hero > div{
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.footerMobile{
+    display: none;
+    position: fixed;bottom: 0px;left: 0px;
+    width: 100%;
+    background-color: #151515;
+    padding: 15px 0px;
+    a{
+        padding: 15px 15px;
+        background-color: #222222;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:775px) {
+    .footerMobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .agenda{
+        display: none;
+    }
+    .hero{
+        padding: 60px 0;
+        h1{
+            font-size: 80% !important;
+        }
+        & > div{
+            width: fit-content;
+        }
+        a{
+            font-size: 15px !important;
+        }
+
+    }
+}
