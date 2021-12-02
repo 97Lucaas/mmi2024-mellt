@@ -38,7 +38,7 @@
         padding: 10px 30px;
         background-color: #333333;
         color: white;
-        padding: 130px 0px; /*a check, valeur de base 130px*/
+        
 
         
 
@@ -85,7 +85,7 @@
     position: fixed;bottom: 0px;left: 0px;
     width: 100%;
     background-color: #151515;
-    padding: 15px 0px;
+    padding: 15px 30px;
     a{
         padding: 15px 15px;
         background-color: #222222;
@@ -99,7 +99,7 @@
     .footerMobile{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .agenda{
         display: none;
