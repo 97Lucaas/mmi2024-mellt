@@ -1,0 +1,48 @@
+
+.image_top{
+    background-image: url("../../../assets/images/prog/Rectangle\ 380.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    h1{
+    font-size: 76px ;
+    }
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+    
+
+    position: relative;
+    a{
+        padding: 10px 30px;
+        background-color: #333333;
+        color: white;
+    
+        text-decoration: none;
+        font-size: 25px;
+        
+    
+    
+    }
+
+}
+#mois{
+    width: 500px;
+    a{
+        img{
+            width: 40px;
+            transform: rotate(90deg);
+        }
+    }
+    & :last-child img{
+        transform: rotate(-90deg);
+    }
+}
+.hero > div{
+    display: flex;
+    justify-content: space-between;
+}
