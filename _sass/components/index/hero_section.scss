@@ -47,3 +47,49 @@ img {
     font-size:20px;
     margin-bottom: 30px;
 }
+
+.anim {
+    overflow: hidden;
+    position: relative;
+    height: 27px;
+    background-color: black;
+   }
+   .anim h1 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 27px;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: sideswipe-a 15s linear infinite;
+    -webkit-animation: sideswipe-a 15s linear infinite;
+    animation: sideswipe-a 15s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes sideswipe-a {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes sideswipe-a {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes sideswipe-a {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
