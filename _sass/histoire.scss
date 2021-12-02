@@ -1,24 +1,31 @@
 .hist{
+<<<<<<< HEAD
+    margin-top: 101px;
+=======
     padding-top: 100px;
 
     h2{
         font-size: 31px;
         font-weight: bold;
     }  
+>>>>>>> b6ee2fb949f91803cceb2a83730c416c6625985a
 
     .histo{       
-        margin-top: 35px;
+        margin-top: 151px;
         margin-bottom: 99px;
         display: flex;
-        gap: 40px;
         align-items: center;
         justify-content: space-between;
-        flex-wrap: wrap;
 
 
     
         .enfant11{
-            position: relative; 
+            margin-top: -110px;
+            position: relative;
+    
+            h2{
+                font-size: 31px;
+            }   
         
             h2{
                 font-size: 31px;
@@ -44,7 +51,7 @@
             }
         }
     }
-    .enfant22 img:first-child{
+    img{
         
         width: 100%;
         margin-bottom: 31px;
@@ -53,6 +60,8 @@
     .enfant22{
         display: flex;
         flex-direction: column;
+        margin-top: -95px;
+        background-image: 90%;
         justify-content: flex-end;
         h2{
             margin-bottom:49px ;
@@ -67,10 +76,5 @@
     position: absolute;
     right: 0px !important;
     width: 176px;
-}
-
-@media screen and (max-width: 1200px) {
-    #evicon2{
-        display: none;
-    }
+    
 }
