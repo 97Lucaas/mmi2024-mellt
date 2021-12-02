@@ -3,6 +3,7 @@
     .Evenements{       
         margin-top: 101px;
         margin-bottom: 99px;
+        flex-wrap: wrap;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -56,3 +57,8 @@
     left: 97px;
 }
 
+@media screen and (max-width: 770px) {
+    #evicon{
+        display: none;
+    }
+}
