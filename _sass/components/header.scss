@@ -18,6 +18,14 @@ header {
     font-size: 19px;
 }
 
+.swipe{
+    background-color: black;
+    color:white;
+    position: relative;
+    display: flex;
+    padding:5px;
+}
+
 .selection a:hover{
     transition:0.2s;
     color:rgb(196, 196, 196);
