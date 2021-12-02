@@ -47,3 +47,12 @@ header img{
 header img:last-child{
     opacity: 0;
 }
+
+@media screen and (max-width: 660px) {
+    header img:first-child{
+        display:none;
+    } 
+    header img:last-child{
+        display:none;
+    } 
+}
