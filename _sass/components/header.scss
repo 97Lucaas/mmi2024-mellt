@@ -18,6 +18,14 @@ header {
     font-size: 19px;
 }
 
+.swipe{
+    background-color: black;
+    color:white;
+    position: relative;
+    display: flex;
+    padding:5px;
+}
+
 .selection a:hover{
     transition:0.2s;
     color:rgb(196, 196, 196);
@@ -39,3 +47,61 @@ header img{
 header img:last-child{
     opacity: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .anim {
+    overflow: hidden;
+    position: relative;
+    height: 27px;
+    background-color: black;
+   }
+   .anim h1 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 27px;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: sideswipe-a 15s linear infinite;
+    -webkit-animation: sideswipe-a 15s linear infinite;
+    animation: sideswipe-a 15s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes sideswipe-a {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes sideswipe-a {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes sideswipe-a {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
