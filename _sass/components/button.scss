@@ -10,15 +10,15 @@
 }
 
 .button-blanc{
+    background-color: #ab0000;
+    border-color: #ab0000;
     padding: 13px;
-    padding: 13px;
-    background-color: #fff;
-    color: #ab0000;
     text-decoration: none;
-    border: 2px solid #ab0000;
+    color: #fff;
     transition: 0.2s;
     display: flex;
     width: fit-content;
+    border: 2px solid #ab0000;
 }
 
 .button-noir:hover{
@@ -30,8 +30,12 @@
 }
 
 .button-blanc:hover{
-    background-color: #ab0000;
-    border-color: #ab0000;
-    color: #fff;
+    padding: 13px;
+    background-color: #fff;
+    color: #ab0000;
+    text-decoration: none;
+    border: 2px solid #ab0000;
     transition: 0.2s;
+    display: flex;
+    width: fit-content;
 }

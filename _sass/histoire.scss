@@ -69,3 +69,9 @@
     width: 176px;
     
 }
+
+@media screen and (max-width: 1200px) {
+    #evicon2{
+        display: none;
+    }
+}
