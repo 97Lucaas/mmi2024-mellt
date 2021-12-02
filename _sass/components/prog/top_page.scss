@@ -38,20 +38,9 @@
         padding: 10px 30px;
         background-color: #333333;
         color: white;
-        
+        text-decoration: none;
 
         
-
-        position: relative;
-        a{
-            padding: 15px 30px;
-            background-color: #333333;
-            color: white;
-        
-            text-decoration: none;
-            font-size: 25px;
-        }
-
     }
 }
 
@@ -95,7 +84,7 @@
 }
 
 
-@media screen and (max-width:775px) {
+@media screen and (max-width:860px) {
     .footerMobile{
         display: flex;
         flex-direction: row;

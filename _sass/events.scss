@@ -11,6 +11,7 @@
 
     
         .enfant1{
+            position: relative;
 
             h2{
                 font-size: 31px;
@@ -57,12 +58,6 @@
 
 #evicon{
     position: absolute;
+    right: 0px !important;
     width: 176px;
-    left: 97px;
-}
-
-@media screen and (max-width: 1200px) {
-    #evicon{
-        display: none;
-    }
 }
