@@ -1,3 +1,33 @@
-.Inf_imp h2{
-    font-size: 34px;
+.Inf_imp{
+    .infos{       
+        margin-top: 101px;
+        margin-bottom: 99px;
+        margin-left: 110px;
+    
+        .title{
+            h2{
+                font-size: 31px;
+                font-weight: bold;
+            }   
+        }
+        h2{
+            font-size: 31px;
+            padding-bottom: 43px;
+            line-height: 150%;
+        }
+        p{
+            font-size: 20px;
+            strong{
+                color: #ab000a;
+                font-weight: bold;
+            }
+        }
+        .buttondiv{
+            margin-top: 61px;
+        }
+    }
 }
+
+
+
+
