@@ -7,16 +7,16 @@
     }  
 
     .histo{       
-        margin-top: 151px;
+        margin-top: 70px;
         margin-bottom: 99px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
 
 
     
         .enfant11{
-            margin-top: -110px;
             position: relative;
     
             h2{
@@ -48,15 +48,14 @@
         }
     }
     img{
-        
         width: 100%;
-        margin-bottom: 31px;
-    
+    }
+    img:first-child{
+    margin-bottom: 31px;
     }
     .enfant22{
         display: flex;
         flex-direction: column;
-        margin-top: -95px;
         background-image: 90%;
         justify-content: flex-end;
         h2{
@@ -73,4 +72,10 @@
     right: 0px !important;
     width: 176px;
     
+}
+
+@media screen and (max-width: 1200px) {
+.enfant22{
+    margin-bottom: 30px;
+}
 }
