@@ -1,6 +1,7 @@
 .Inf_imp{
     padding: 100px 0px 100px 0px;
-    .infos{        
+    .infos{    
+        position: relative;    
         .title{
             h2{
                 font-size: 31px;
@@ -26,15 +27,10 @@
     }
 }
 
-.Inf_imp img:first-child{
+
+
+#ic-inf{
     position: absolute;
-    width: 450px;
-    left: 276px;
-}
-
-
-@media screen and (max-width: 1200px) {
-    .Inf_imp img:first-child{
-        display: none;
-    }
+    right: 0px !important;
+    width: 305px;
 }
