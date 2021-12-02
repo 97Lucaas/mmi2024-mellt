@@ -1,11 +1,14 @@
-<figure class="affiche col-12 col-xl-4">
-    <img class="img" src="../../assets/images/{{ include.nom_image }}.png">
-    <figurecaption>
-        <article class="HP_une">
-        <h2>{{ include.titre }}</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda dolorum, sint ad commodi eligendi aliquam numquam eos nihil nam soluta facilis magnam, praesentium modi nemo natus molestiae dolor. Nisi, quaerat.</p>
-        </article>
-        {% include button.html button_text="RESERVEZ" btn_type="noir" %}
-    </figurecaption>
 
-</figure>
+<div class="cont-img-carousel">
+    <div class="carous">
+        <div class="ev-car-items">
+            <div class="car-items">
+                {% include tag.html tag_text="A LA UNE" tag_type="info" %}
+                <h3 class="ev">{{ include.titre }}</h3>
+                <p class="ev">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus a reiciendis adipisci voluptate quis nam necessitatibus vitae atque magni rerum explicabo accusantium, autem vero ipsam beatae, nisi, quos perferendis!</p>
+                {% include button.html button_text="RESERVEZ" btn_type="noir" %}
+            </div>
+            <img class="img" src="../../assets/images/{{ include.nom_image }}">
+        </div>
+    </div>
+</div>
