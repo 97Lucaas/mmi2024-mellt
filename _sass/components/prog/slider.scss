@@ -1,10 +1,10 @@
 .carousel-item{
-    border: 2px solid red;
+    // border: 2px solid red;
     width: 100%;
 }
 .content_img{
     display: flex;
-    border: 2px solid yellow;
+    // border: 2px solid yellow;
     margin: 0 auto;
     justify-content: space-between;
     width: 80% !important;
@@ -13,7 +13,7 @@
 
 .article_img{
     position: relative;
-    border: 2px solid pink;
+    // border: 2px solid pink;
 }
 .texte-image{
     position: absolute;
@@ -38,9 +38,34 @@
 }
 
 .placement_btn{
-    bottom: -50px;
+    bottom: -80px;
 }
 .carousel{
     margin-bottom: 100px;
     position: relative;
 }
+
+.my_arrow{
+    background-image: url("../../../assets/images/prog/fleche\ rouge\ last.png");
+    height: 75px;
+    width: 40px;
+}
+.prev{
+    transform: rotate(180deg);
+}
+
+.circleBtn{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+
+    background-color: black !important;
+    
+    
+}
+.carousel-indicators{
+     .active{
+        height: 30px !important;
+        width: 30px !important;
+    }
+} 
