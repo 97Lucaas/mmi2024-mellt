@@ -38,7 +38,7 @@
         padding: 10px 30px;
         background-color: #333333;
         color: white;
-        padding: 10vw 0px; /*a check, valeur de base 130px*/
+        padding: 130px 0px; /*a check, valeur de base 130px*/
 
         
 
@@ -85,11 +85,12 @@
     position: fixed;bottom: 0px;left: 0px;
     width: 100%;
     background-color: #151515;
-    padding: 10px 0px;
+    padding: 15px 0px;
     a{
-        padding: 5px 10px;
+        padding: 15px 15px;
         background-color: #222222;
         color: white;
+        font-size: 20px;
     }
 }
 
@@ -104,8 +105,9 @@
         display: none;
     }
     .hero{
+        padding: 60px 0;
         h1{
-            font-size: 60% !important;
+            font-size: 80% !important;
         }
         & > div{
             width: fit-content;
