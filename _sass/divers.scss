@@ -1,7 +1,8 @@
 .divers{
     margin-bottom: 100px;
     .partiedivers{  
-        margin-left: 110px; 
+        
+
         p{
             font-size: 20px;
         }     
@@ -15,6 +16,7 @@
             font-size: 31px;
             padding-bottom: 43px;
             line-height: 150%;
+            font-weight: bold;
             strong{
                 color: #ab000a;
                 font-weight: bold;
@@ -22,3 +24,10 @@
         }
     }
 }
+
+@media screen and (max-width: 575px) {
+    .partiedivers{
+        margin-left: 10px !important;
+    }
+    }
+    
