@@ -1,0 +1,36 @@
+.Inf_imp{
+    padding: 100px 0px 100px 0px;
+    .infos{    
+        position: relative;    
+        .title{
+            h2{
+                font-size: 31px;
+                font-weight: bold;
+            }   
+        }
+        h2{
+            font-size: 31px;
+            padding-bottom: 43px;
+            line-height: 150%;
+            font-weight: bold;
+        }
+        p{
+            font-size: 20px;
+            strong{
+                color: #ab000a;
+                font-weight: bold;
+            }
+        }
+        .buttondiv{
+            margin-top: 61px;
+        }
+    }
+}
+
+
+
+#ic-inf{
+    position: absolute;
+    right: 0px !important;
+    width: 305px;
+}

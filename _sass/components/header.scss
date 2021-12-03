@@ -18,6 +18,14 @@ header {
     font-size: 19px;
 }
 
+.swipe{
+    background-color: black;
+    color:white;
+    position: relative;
+    display: flex;
+    padding:5px;
+}
+
 .selection a:hover{
     transition:0.2s;
     color:rgb(196, 196, 196);
@@ -26,7 +34,8 @@ header {
 
 .selection{
     display: flex;
-    gap: 50px;
+    column-gap: 50px;
+    row-gap: 10px;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
@@ -38,4 +47,13 @@ header img{
 
 header img:last-child{
     opacity: 0;
+}
+
+@media screen and (max-width: 660px) {
+    header img:first-child{
+        display:none;
+    } 
+    header img:last-child{
+        display:none;
+    } 
 }

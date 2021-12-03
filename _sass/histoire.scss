@@ -1,0 +1,81 @@
+.hist{
+    padding-top: 100px;
+
+    h2{
+        font-size: 31px;
+        font-weight: bold;
+    }  
+
+    .histo{       
+        margin-top: 70px;
+        margin-bottom: 99px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+    
+        .enfant11{
+            position: relative;
+    
+            h2{
+                font-size: 31px;
+            }   
+        
+            h2{
+                font-size: 31px;
+                padding-bottom: 43px;
+                line-height: 150%;
+                strong{
+                    color: #ab000a;
+                    font-weight: bold;
+                }
+            }
+            p{
+                font-size: 20px;
+                strong{
+                    color: #ab000a;
+                    font-weight: bold;
+                }
+            }
+            .buttondiv22{
+                position: absolute;
+                right: 0px;
+                margin-top: 30px;
+            
+            }
+        }
+    }
+    img{
+        width: 100%;
+    }
+    img:first-child{
+    margin-bottom: 31px;
+    }
+    .enfant22{
+        display: flex;
+        flex-direction: column;
+        background-image: 90%;
+        justify-content: flex-end;
+        h2{
+            margin-bottom:49px ;
+            font-size: 31px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+#evicon2{
+    position: absolute;
+    right: 0px !important;
+    width: 176px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+.enfant22{
+    margin-bottom: 30px;
+}
+}
