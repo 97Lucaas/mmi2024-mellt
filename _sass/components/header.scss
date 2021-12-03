@@ -86,9 +86,21 @@ text-shadow: 2px 2px 1px black;
 @media screen and (max-width: 991px) {
     #fake-img{
         display:none;
-    } 
+    }
+    #loupe{
+        width: 30px;
+        margin-right: 25px;
+    }
+    .container_logos{
+    flex-direction: row-reverse;
+    }
 }
 
 .navbar-nav{
     column-gap: 60px;
+}
+
+
+#loupe{
+    display: none;
 }
