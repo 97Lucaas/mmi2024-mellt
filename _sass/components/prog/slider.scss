@@ -1,6 +1,7 @@
 .carousel-item{
     // border: 2px solid red;
     width: 100%;
+    
 }
 .content_img{
     display: flex;
@@ -11,11 +12,17 @@
     img{
         width: 450px;
     }
+    
+
    
+}
+.test{
+    border: 2px solid blue;
 }
 
 .article_img{
     position: relative;
+    
     // border: 2px solid pink;
 }
 .texte-image{
@@ -45,7 +52,7 @@
     bottom: -80px;
 }
 .carousel{
-    margin-bottom: 100px;
+    
     position: relative;
 }
 
@@ -58,9 +65,7 @@
     transform: rotate(180deg);
     
 }
-.next{
-    
-}
+
 
 .circleBtn{
     height: 20px !important;
@@ -83,4 +88,7 @@
 .titre_slider{
     margin-left: 12.5vw;
     margin-bottom: 10px;
+}
+.slider{
+    margin-bottom: 200px;
 }
