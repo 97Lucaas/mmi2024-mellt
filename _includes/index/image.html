@@ -5,7 +5,7 @@
             <div class="car-items">
                 {% include tag.html tag_text="A LA UNE" tag_type="info" %}
                 <h3 class="ev">{{ include.titre }}</h3>
-                <p class="ev">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus a reiciendis adipisci voluptate quis nam necessitatibus vitae atque magni rerum explicabo accusantium, autem vero ipsam beatae, nisi, quos perferendis!</p>
+                <p class="ev">{{ include.desc }}</p>
                 {% include button.html button_text="RESERVEZ" btn_type="noir" %}
             </div>
             <img class="img" src="../../assets/images/{{ include.nom_image }}" alt="{{ include.image_alt }}">
