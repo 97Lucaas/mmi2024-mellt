@@ -108,3 +108,22 @@
         height: 80vh;
     }
 }
+
+.voir-plus {
+    width: fit-content;
+    margin: auto auto 30px auto;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.voir-plus #p-voirplus {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.voir-plus #img2 {
+    height: 30px;
+    margin-top: 10px;
+}
