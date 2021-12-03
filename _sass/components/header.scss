@@ -42,9 +42,9 @@ header {
 }
 
 header img{
-    width: 160px;
+    width: 130px;
 }
-
+/*
 header img:last-child{
     opacity: 0;
 }
@@ -56,4 +56,40 @@ header img:last-child{
     header img:last-child{
         display:none;
     } 
+}
+*/
+.nav-mod{
+    width: 100%;
+    background-color: #222222 !important;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 19px;
+}
+
+.nav-item:hover{
+transition:0.2s;
+color:rgb(196, 196, 196);
+text-shadow: 2px 2px 1px black;
+}
+
+.navbar-mod{
+    justify-content: center;
+}
+
+#fake-img{
+    opacity: 0;
+}
+
+@media screen and (max-width: 991px) {
+    #fake-img{
+        display:none;
+    } 
+}
+
+.navbar-nav{
+    column-gap: 60px;
 }
