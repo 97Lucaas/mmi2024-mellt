@@ -7,7 +7,10 @@
     // border: 2px solid yellow;
     margin: 0 auto;
     justify-content: space-between;
-    width: 80% !important;
+    width: 75% !important;
+    img{
+        width: 450px;
+    }
    
 }
 
@@ -18,18 +21,19 @@
 .texte-image{
     position: absolute;
     display: block;
-    z-index: 5;
+    z-index: 2;
     top: 50%;
     bottom: 0;
     width: 100%;
     background-color: rgba($color: #000000, $alpha: 0.63);
 
     h4,h5,p{
-        margin: 5px 15px;
+        margin: 10px 15px;
         color: white;
     }
     h4{
         font-size: 25px;
+        margin-top: 15px;
         font-weight: bold;
     }
     p{
@@ -52,6 +56,10 @@
 }
 .prev{
     transform: rotate(180deg);
+    
+}
+.next{
+    
 }
 
 .circleBtn{
@@ -65,7 +73,14 @@
 }
 .carousel-indicators{
      .active{
-        height: 30px !important;
-        width: 30px !important;
+        height: 25px !important;
+        width: 25px !important;
     }
 } 
+.bold{
+    font-weight: bold;
+}
+.titre_slider{
+    margin-left: 12.5vw;
+    margin-bottom: 10px;
+}
