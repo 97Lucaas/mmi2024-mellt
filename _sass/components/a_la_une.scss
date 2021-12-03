@@ -81,12 +81,21 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    h2{
+        margin:0;
+        font-weight: bold;
+        @media screen and (max-width: 700px) {
+            font-size: 30px !important;
+            margin-bottom: 15px;
+        }
+    }
 }
 
-.events-title h2{
-    margin:0;
-    font-weight: bold;
-}
+
 
 .event-button{
     font-size: 17px;
@@ -97,6 +106,11 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
+    @media screen and (max-width: 990px) {
+        flex-direction: column;
+        align-items: center;
+        
+    }
 }
 
 .cont-img-carousel img{
@@ -113,6 +127,14 @@
     background: linear-gradient(89.35deg, #222222 1.92%, rgba(0, 0, 0, 0) 144.8%);
     position: relative;
     width: 320px;
+    @media screen and (max-width: 1200px) {
+        width: 280px;
+        
+    }
+    
+
+
+
 }
 
 .car-items{
