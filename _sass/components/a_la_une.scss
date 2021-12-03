@@ -85,6 +85,7 @@
 
 .events-title h2{
     margin:0;
+    font-weight: bold;
 }
 
 .event-button{
@@ -95,7 +96,7 @@
     display:flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .cont-img-carousel img{
