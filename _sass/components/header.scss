@@ -97,7 +97,7 @@ text-shadow: 2px 2px 1px black;
         display: inline !important;
     }
     .container_logos{
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 }
 
@@ -111,4 +111,10 @@ text-shadow: 2px 2px 1px black;
 
 #loupe{
     display: none;
+}
+.centerM {
+    @media screen and (max-width: 700px) {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
 }

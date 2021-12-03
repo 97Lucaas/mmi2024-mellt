@@ -92,3 +92,40 @@
 .slider{
     margin-bottom: 200px;
 }
+
+.res_slider{
+    margin: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    width: 100%;
+    
+
+    padding: 5px;
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    p{
+        color: #ab0000;
+        font-size: 20px;
+    }
+}
+.res_slider:hover{
+    background-color: #ab0000;
+    border: 2px solid #ab0000;
+    
+    p{
+        color: white;
+    }
+
+}
+.no_marg{
+    padding-bottom: 75px!important;
+    margin-bottom: 0 !important;
+    background-color: #DEDEDE !important;
+}
