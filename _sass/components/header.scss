@@ -73,8 +73,10 @@ header img:last-child{
 
 .nav-item:hover{
 transition:0.2s;
-color:rgb(196, 196, 196);
 text-shadow: 2px 2px 1px black;
+    .nav-link{
+        color:rgb(255, 255, 255);
+    }
 }
 
 .navbar-mod{
@@ -95,3 +97,6 @@ text-shadow: 2px 2px 1px black;
     column-gap: 60px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
